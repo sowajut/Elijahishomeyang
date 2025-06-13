@@ -38,6 +38,16 @@ main {
   border-radius: 8px;
 }
 
+footer {
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed; /* Optional: makes the footer stick */
+  bottom: 0;
+  width: 100%;
+}
+
 @media (max-width: 600px) {
   .project-card {
     margin: 10px;
