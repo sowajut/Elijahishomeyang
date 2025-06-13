@@ -43,17 +43,22 @@ footer {
   color: white;
   text-align: center;
   padding: 15px;
-  position: fixed; /* Optional: makes the footer stick */
-  bottom: 0;
-  width: 100%;
+  margin-top: 20px;
 }
 
 @media (max-width: 600px) {
-  .project-card {
-    margin: 10px;
-  }
   nav {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+  }
+
+  .project-card {
+    margin: 10px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
   }
 }
+
